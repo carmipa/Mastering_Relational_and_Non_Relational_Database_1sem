@@ -1,0 +1,154 @@
+# =============================
+# 📂 Banco de Dados - GitIgnore
+# =============================
+
+# ==========================
+# 🔵 Arquivos de Banco de Dados
+# ==========================
+
+# Oracle
+*.dmp               # Dumps de exportação
+*.log               # Logs de execução
+*.ora               # Arquivos de configuração do Oracle
+*.ctl               # Arquivos de controle
+*.trc               # Arquivos de rastreamento
+*.dat               # Arquivos de dados
+*.sqlj              # Java armazenado no Oracle
+*.plb               # Compilação PL/SQL
+*.sql               # Scripts SQL temporários
+*.grd               # Arquivos de grade
+*.lck               # Arquivos de bloqueio
+*.dbf               # Arquivos de banco de dados Oracle
+*.mwb               # MySQL Workbench Models
+
+# MySQL
+*.sql               # Scripts SQL
+*.csv               # Dados exportados
+*.log               # Logs de erro e acesso
+*.cnf               # Arquivo de configuração
+*.ibd               # Arquivos InnoDB
+
+# SQL Server
+*.mdf               # Arquivos principais do banco
+*.ldf               # Arquivos de log
+*.bak               # Backups de banco de dados
+*.trc               # Arquivos de rastreamento
+*.dacpac            # Arquivos de deploy
+*.bacpac            # Arquivos de backup
+*.sqlplan           # Planos de execução SQL Server
+
+# MongoDB
+*.bson              # Dumps binários MongoDB
+*.json              # Dados JSON exportados
+*.lock              # Arquivo de bloqueio Mongo
+*.log               # Logs de execução
+
+# Cassandra
+*.cql               # Scripts CQL
+*.db                # Arquivos do Cassandra
+*.log               # Logs de execução
+*.sst               # Arquivos de armazenamento
+
+# PostgreSQL
+*.dump              # Dumps PostgreSQL
+*.psql              # Scripts PSQL
+
+# Redis
+*.rdb               # Snapshots do Redis
+*.aof               # Append-only files
+*.log               # Logs Redis
+
+# ========================
+# ⚙️ Ferramentas de Gerenciamento
+# ========================
+
+# SQL Developer
+*.sqlj
+*.dbsettings
+*.dba
+*.dat
+*.log
+
+# Data Modeler
+*.dmd               # Modelos de dados
+*.dmx               # Exportações
+*.log
+*.tmp
+*.bak
+
+# PL/SQL Developer
+*.pds               # Projetos
+*.log               # Logs de execução
+*.bak               # Backups temporários
+
+# DBeaver e DataGrip
+*.dbeaver-data
+*.data
+*.log
+*.tmp
+
+# =======================
+# 🚀 Arquivos de Ambiente
+# =======================
+
+# Docker e Kubernetes
+docker-compose.override.yml
+*.dockerignore
+.kube/
+
+# Configurações de ambiente e segurança
+*.env
+.env.local
+.env.production
+.env.test
+db_credentials.json
+secrets.yml
+
+# Logs e temporários
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.temp
+
+# Arquivos de cache
+.cache/
+.history/
+*.sqlite3
+*.sqlite
+
+# ===================
+# 🖥️ Arquivos de IDEs
+# ===================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / DataGrip
+.idea/
+*.iml
+*.iws
+
+# DataGrid
+.datagrid/
+*.temp
+
+# SQL Developer
+*.sqldeveloper/
+
+# ======================
+# 🛑 Arquivos do Sistema
+# ======================
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# MacOS
+.DS_Store
+
+# Linux
+*.swp
+*.swo
